@@ -2,28 +2,6 @@ Stroke Prediction Machine Learning Application
 
 A machine learning application that predicts stroke risk using Logistic Regression and Random Forest models trained on the Stroke Prediction Dataset from Kaggle.
 
-Project Structure
-
-```
-project/
-│
-├── data/
-│   └── stroke.csv               Dataset (download from Kaggle)
-│
-├── src/
-│   ├── data_processing.py       DataProcessor class
-│   ├── model_training.py        ModelTrainer class
-│   ├── evaluation.py            ModelEvaluator class
-│   ├── app.py                   StreamlitApp class
-│   ├── utils.py                 Utility functions
-│   └── main.py                  Main training script
-│
-├── models/                      Trained models (generated)
-├── results/                     Evaluation results (generated)
-│
-├── requirements.txt
-└── README.md
-```
 
 Installation
 
