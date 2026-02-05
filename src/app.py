@@ -1,14 +1,20 @@
 """
 Streamlit application for stroke prediction.
 """
-
 import streamlit as st
+
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 from data_processing import DataProcessor
+
 from model_training import ModelTrainer
+
 from evaluation import ModelEvaluator
 
 

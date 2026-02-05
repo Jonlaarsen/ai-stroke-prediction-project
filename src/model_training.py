@@ -3,9 +3,13 @@ Model training module for stroke prediction.
 """
 
 import pickle
+
 import numpy as np
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.ensemble import RandomForestClassifier
+
 from sklearn.model_selection import GridSearchCV
 
 

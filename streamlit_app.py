@@ -5,16 +5,22 @@ Run with: streamlit run streamlit_app.py
 """
 
 import sys
+
 import os
 
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 import streamlit as st
+
 import numpy as np
+
 from data_processing import DataProcessor
+
 from model_training import ModelTrainer
+
 from evaluation import ModelEvaluator
+
 from app import StreamlitApp
 
 
